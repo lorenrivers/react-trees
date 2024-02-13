@@ -1,12 +1,14 @@
 import TreeCard from "./Components/TreeCard";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import SurpriseTree from "./Components/SurpriseTree";
 import "./App.css";
 
 export default function App() {
   return (
     <div>
       <Header />
+      <SurpriseTree />
       <div className="tree-container">
         <TreeCard
           treeName="Socotra Dragon Tree"
