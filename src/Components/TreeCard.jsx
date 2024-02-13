@@ -6,7 +6,7 @@ export default function TreeCard({ treeName, imgLink, location }) {
     <div id="treeCard" className="tree-card">
       <h2>{treeName}</h2>
       <img src={imgLink} alt="" className="tree-image" />
-      <p>{location}</p>
+      <p className="location-text">{location}</p>
       <Button />
     </div>
   );
